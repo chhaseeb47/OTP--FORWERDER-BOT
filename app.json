@@ -1,0 +1,12 @@
+{
+  "name": "Telegram Bot",
+  "description": "Deployable Telegram Bot",
+  "repository": "https://github.com/yourrepo",
+  "env": {},
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
