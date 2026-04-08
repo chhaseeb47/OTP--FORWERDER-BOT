@@ -24,15 +24,15 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # ------------ Config from environment ------------
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")  # Telegram Bot Token
-ADMIN_CHAT_IDS = os.environ.get("ADMIN_CHAT_IDS", "").split(",") if os.environ.get("ADMIN_CHAT_IDS") else []
-INITIAL_CHAT_IDS = os.environ.get("INITIAL_CHAT_IDS", "").split(",") if os.environ.get("INITIAL_CHAT_IDS") else ["-1003030778414"]
+TELEGRAM_TOKEN = os.environ.get("8209080893:AAF_wp5Kzy-ChR7sXNYZqGfZVUErS5-A02Y")  # Telegram Bot Token
+ADMIN_CHAT_IDS = os.environ.get("7496010285", "").split(",") if os.environ.get("7496010285") else []
+INITIAL_CHAT_IDS = os.environ.get("7496010285", "").split(",") if os.environ.get("INITIAL_CHAT_IDS") else ["-1003030778414"]
 
-LOGIN_URL = os.environ.get("IVASMS_LOGIN_URL", "https://www.ivasms.com/login")
-BASE_URL = os.environ.get("IVASMS_BASE_URL", "https://www.ivasms.com/")
-SMS_API_ENDPOINT = os.environ.get("IVASMS_SMS_ENDPOINT", "https://www.ivasms.com/portal/sms/received/getsms")
-USERNAME = os.environ.get("IVASMS_USERNAME", "mdsajibvai095@gmail.com")
-PASSWORD = os.environ.get("IVASMS_PASSWORD", "sojibbro22@@##")
+LOGIN_URL = os.environ.get("IVASMS_LOGIN_URL", "https://www.orangecarrier.com/login")
+BASE_URL = os.environ.get("IVASMS_BASE_URL", "https://www.orangecarrier.com/")
+SMS_API_ENDPOINT = os.environ.get("IVASMS_SMS_ENDPOINT", "https://www.orangecarrier.com//portal/sms/received/getsms")
+USERNAME = os.environ.get("IVASMS_USERNAME", "deher45943@rickix.com")
+PASSWORD = os.environ.get("IVASMS_PASSWORD", "Tanveer123")
 
 POLLING_INTERVAL_SECONDS = int(os.environ.get("POLLING_INTERVAL_SECONDS", "5"))
 STATE_FILE = os.environ.get("STATE_FILE", "processed_sms_ids.json")
